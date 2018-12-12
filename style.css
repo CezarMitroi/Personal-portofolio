@@ -5,7 +5,7 @@
   width: 100%;
   top: 0px;
   left: 0;
-  z-index: 10;
+  z-index: 5;
   font-family: verdana;
   opacity: 0.9;
 }
@@ -30,6 +30,7 @@ nav ul li a {
   height: 420px;
   text-align: center;
   color: #FFB300;
+}
   h1 {
     font-size: 70px;
   }
@@ -40,6 +41,7 @@ nav ul li a {
   p {
     color: #FFCA28;
   }
+
   #me {
     height: 50%;
     width: 30%;
@@ -59,9 +61,11 @@ nav ul li a {
     left: 45%;
     top: 30%;
   }
-}
+
+
+
 #projects {
-    padding-top: 200px;
+    padding-top: 150px;
   height: 600px;
   width: 100%;
   margin: 0 auto;
@@ -125,6 +129,8 @@ color: white;
   background-color:#FFC107;
   color: white;
 }
+
+
 #get-in-touch {
   border: 10px solid black;
   border-radius: 50px;
@@ -132,20 +138,26 @@ color: white;
   position: relative;
     bottom: -8px;
     padding-top: 90px;
+ position: relative;
+  top: 70px;
   padding-bottom: 90px;
   width: 70%;
-  h3 {
-    color: white;
-      background-color:#FFC107;
-  }
   color: white;
   background-color:#FFD54F;
   margin: 0 auto;
   margin-top: 100px;
-  p{
+}
+#get-in-touch h3 {
+    color: white;
       background-color:#FFC107;
   }
-  a {
+
+#get-in-touch p{
+ background-color:#FFC107;
+  color: white;
+  }
+
+#get-in-touch  a {
     background-color: white;
       color:  #FFD54F;
     border: 3px dotted white;
@@ -155,17 +167,20 @@ color: white;
   height: 30px;
     text-align: center;
   }
-  a:hover{
+
+#get-in-touch a:hover{
     background-color:#FFD54F;
   color: white;
   }
-  
-  .container {
+
+  .container1 {
     margin-left: 130px;
     margin-right: 130px;
       background-color:#FFD54F;
   }
-}
+
+
+
 .interesting{
   background-color:#FFD54F;
 }
@@ -173,26 +188,32 @@ body {
     background-color: black;
 }
 hr{
-  
+  position: relative;
+  top: 70px;
   height: 1px;
   margin: 25px -10px;
 }
-#buttons{
-  .container {
+
+
+.btns{
     display: flex;
     flex-direction: row;
    margin-top: 0px;
+    justify-content: space-around;
   }
-  button{
-    color: black;
-  }
+#buttons{
+  position: relative;
+  top: 75px;
+  
 }
+
 #conclusion{
   font-size: 3rem;
  text-align: center;
   height: 10px;
   margin-top: 20px;
 position: absolute;
+  color: black;
 }
 .magnify{
   position: relative;
